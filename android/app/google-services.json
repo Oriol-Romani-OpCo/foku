@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692748288462",
+    "project_id": "foku-715fa",
+    "storage_bucket": "foku-715fa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692748288462:android:234af4e403e923ba44eb9f",
+        "android_client_info": {
+          "package_name": "com.example.foku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLDbZO5bcSwV_Tc59KxHkk7zyYQnSsa1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
