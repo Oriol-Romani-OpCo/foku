@@ -9,7 +9,16 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Com et sents avui?')),
+      appBar: AppBar(
+        title: const Text('Com et sents avui?'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.settings),
+            tooltip: 'Configuració',
+            onPressed: () => Navigator.pushNamed(context, '/settings'),
+        ),
+      ],
+        ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
